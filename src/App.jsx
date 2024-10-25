@@ -1,5 +1,5 @@
 import './App.css'
-import Layout from './layout/layout'
+import Layout from './Layout/Layout.jsx'
 export default function App() {
   return (
     < Layout />

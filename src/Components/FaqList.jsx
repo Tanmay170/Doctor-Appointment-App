@@ -1,10 +1,10 @@
 import React from 'react'
-import { faqs } from '../data/faqs'
-import Faqitem from './Faqitem'
+import { faqs } from '../data/faqs.js'
+import FaqItem from './FaqItem.jsx'
 const FaqList = () => {
   return (
     <ul className='mt-[38px]'>
-        {faqs.map((item,index) => <Faqitem item={item} key={index} />)}
+        {faqs.map((item,index) => <FaqItem item={item} key={index} />)}
     </ul>
   )
 }

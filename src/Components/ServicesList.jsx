@@ -1,6 +1,6 @@
 import React from 'react'
-import { services } from '../data/services' 
-import ServicesCard from './ServicesCard'
+import { services } from '../data/services.js' 
+import ServicesCard from './ServicesCard.jsx'
 
 const ServicesList = () => {
   return (

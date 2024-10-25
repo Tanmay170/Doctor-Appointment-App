@@ -10,12 +10,12 @@ import avatar from '../assets/avatar-icon.png'
 import featureImg from '../assets/feature-img.png'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
-import About from '../Components/About'
-import ServicesList from '../Components/ServicesList'
-import DoctorsList from '../Components/DoctorsList'
+import About from '../Components/About.jsx'
+import ServicesList from '../Components/ServicesList.jsx'
+import DoctorsList from '../Components/DoctorsList.jsx'
 import faqImg from '../assets/faq-img.png'
-import FaqList from '../Components/FaqList'
-import Testimonial from '../Components/Testimonial'
+import FaqList from '../Components/FaqList.jsx'
+import Testimonial from '../Components/Testimonial.jsx'
 const Home = () => {
   return (
     <>
